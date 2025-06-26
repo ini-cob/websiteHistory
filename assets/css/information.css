@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+#section1, #section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    align-items: center;
+}
+#poktapokImage{
+    width: 500px;
+    height: auto;
+}
+#poktapokInfo{
+    padding: 12px;
+    text-align: center;
+}
+#mechanicsInfo{
+    width: 60vw;
+}
+#trophieImage{
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+.videoLink{
+    color: darkblue;
+    text-decoration: underline !important;
+    font-weight: 400;
+}
+.videoLink:hover{
+    color: black;
+}
